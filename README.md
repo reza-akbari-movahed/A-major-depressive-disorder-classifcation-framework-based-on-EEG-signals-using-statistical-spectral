@@ -4,7 +4,7 @@ This repository provides the implemented codes of “ A major depressive disorde
 https://doi.org/10.1016/j.jneumeth.2021.109209
 ## Dependencies
 The codes are implemeted using MATLAB R2019b in Windows platform. 
-### Dataset Link 
+## Dataset Link 
 The preprocessed EEG signals is saved into a MAT file and can be downloaded using the below link. The label 1 refers to HC samples and the label -1 refers to MDD cases. <br />
 https://drive.google.com/file/d/1A3Xyon397om1t5WxINzZzGMBjiaRd0d0/view?usp=sharing
 ## How to run 
