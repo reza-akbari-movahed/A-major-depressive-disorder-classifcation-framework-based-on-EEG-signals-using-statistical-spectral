@@ -3,13 +3,13 @@ clc
 clear all
 close all
 %% Loading dataset
-%% Loading dataset
 Current_dir = pwd 
 List_Current_dir = split(Current_dir,'\')
 Data_Link = '' ;
 for i=1:length(List_Current_dir)-1
     Data_Link = append(Data_Link, List_Current_dir{i,1},'\');
 end
+Result_Data_Link = Data_Link ; 
 Data_Link = fullfile(Data_Link,'EEG_Dataset_Mod_Channels.mat');
 load(Data_Link);
 %% EEG Signal Slicing (EEG Signal Segmentation) (Data Augmentation)
@@ -51,4 +51,4 @@ parfor i=1:length(Each_Segment)
 end
 Data_Feature_Extracted = cat(2,ST,P,IA,RWE_F,WE_F,SL_F,DFA_F,...
     HFD_F,corDim,lyapExp,C0_F,AE_F,Ko_F,Sh_F);
-save('Feature_Extracted_data.mat','Data_Feature_Extracted','Labels');
+save(fullfile(Result_Data_Link, 'Feature_Extracted.mat'),'Data_Feature_Extracted','Labels');
