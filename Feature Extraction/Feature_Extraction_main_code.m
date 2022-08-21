@@ -3,7 +3,15 @@ clc
 clear all
 close all
 %% Loading dataset
-load('G:\MATLAB_Codes\EEG Codes\Final_Set_to_MAT\EEG_Dataset_Mod_Channels.mat');
+%% Loading dataset
+Current_dir = pwd 
+List_Current_dir = split(Current_dir,'\')
+Data_Link = '' ;
+for i=1:length(List_Current_dir)-1
+    Data_Link = append(Data_Link, List_Current_dir{i,1},'\');
+end
+Data_Link = fullfile(Data_Link,'EEG_Dataset_Mod_Channels.mat');
+load(Data_Link);
 %% EEG Signal Slicing (EEG Signal Segmentation) (Data Augmentation)
 Idx = 1; 
 for i=1:length(EEG_Dataset)
