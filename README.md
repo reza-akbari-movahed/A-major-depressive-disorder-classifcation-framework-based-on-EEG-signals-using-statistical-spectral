@@ -1,0 +1,2 @@
+# A-major-depressive-disorder-classifcation-framework-based-on-EEG-signals-using-statistical-spectral
+This paper proposes a machine learning framework for MDD diagnosis, which uses different types of EEG-derived features. The features are extracted using statistical, spectral, wavelet, functional connectivity, and nonlinear analysis methods. The sequential backward feature selection (SBFS) algorithm is also employed to perform feature selection. Various classifier models are utilized to select the best one for the proposed framework.
