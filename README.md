@@ -9,4 +9,5 @@ The preprocessed EEG signals is saved into a MAT file and can be downloaded usin
 https://drive.google.com/file/d/1A3Xyon397om1t5WxINzZzGMBjiaRd0d0/view?usp=sharing
 ## How to run 
 1. Download the dataset using the provided link and copy it to the main directory of the project. 
-2. Go to Feature Extraction folder and run 
+2. Go to Feature Extraction folder and run Feature_Extraction_main_code.m in its directory. 
+3. 
