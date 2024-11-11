@@ -14,6 +14,7 @@ https://drive.google.com/file/d/1A3Xyon397om1t5WxINzZzGMBjiaRd0d0/view?usp=shari
 ## Citation 
 If you use this repository, please cite it as:
 
+```bibtex
 @article{movahed2021major,
   title        = {A major depressive disorder classification framework based on EEG signals using statistical, spectral, wavelet, functional connectivity, and nonlinear analysis},
   author       = {Movahed, Reza Akbari and Jahromi, Gila Pirzad and Shahyad, Shima and Meftahi, Gholam Hossein},
