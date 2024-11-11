@@ -11,3 +11,17 @@ https://drive.google.com/file/d/1A3Xyon397om1t5WxINzZzGMBjiaRd0d0/view?usp=shari
 1. Download the dataset using the provided link and copy it to the main directory of the project. 
 2. Go to Feature Extraction folder and run Feature_Extraction_main_code.m in its directory. 
 3. Go to Train and evaluate model folder and run Mfile.m to execute the proposed method based on 10-fold cross-validation.
+## Citation 
+If you use this repository, please cite it as:
+
+@article{movahed2021major,
+  title={A major depressive disorder classification framework based on EEG signals using statistical, spectral, wavelet, functional connectivity, and nonlinear analysis},
+  author={Movahed, Reza Akbari and Jahromi, Gila Pirzad and Shahyad, Shima and Meftahi, Gholam Hossein},
+  journal={Journal of Neuroscience Methods},
+  volume={358},
+  pages={109209},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
